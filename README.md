@@ -6,6 +6,7 @@ To run:
    - Open Anaconda Prompt.
    - Run `pip install opencv-python`.
 2. Download `haarscade_frontalface_default.xml` file on [OpenCV Github repository](https://github.com/opencv/opencv/tree/master/data/haarcascades).
+   - Make sure that the `'xml` file is on the same directory as `python-webcam.py`.
 3. Open Spyder.
 4. Open `python-webcam.py` and run.
    - Make sure that there's nothing blocking the webcam. It will immediately load and find a face.
